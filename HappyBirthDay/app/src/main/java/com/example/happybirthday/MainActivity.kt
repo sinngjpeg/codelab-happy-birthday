@@ -57,7 +57,9 @@ fun BirthdayGreetingWithText(message: String, from: String, modifier: Modifier =
         Text(
             text = from,
             fontSize = 24.sp,
-            modifier = Modifier.padding(top = 16.dp)
+            modifier = Modifier
+                .padding(top = 16.dp, end = 16.dp)
+                .align(alignment = Alignment.End)
         )
     }
 }
