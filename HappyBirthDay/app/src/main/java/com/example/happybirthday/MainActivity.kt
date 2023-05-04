@@ -16,9 +16,11 @@ import com.example.happybirthday.ui.theme.HappyBirthDayTheme
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.unit.dp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,10 +48,12 @@ fun BirthdayGreetingWithText(message: String, from: String, modifier: Modifier =
         Text(
             text = message,
             fontSize = 36.sp,
+            modifier = Modifier.padding(top = 16.dp)
         )
         Text(
             text = from,
             fontSize = 24.sp,
+            modifier = Modifier.padding(top = 16.dp)
         )
     }
 }
