@@ -1,5 +1,13 @@
-# codelab-happy-birthday
-Repositorio dedicado ao codelab da Google first app Happy BirthDay
+# 🎉 **Codelab - Happy Birthday**
+
+Repositório dedicado ao codelab da Google **First App: Happy Birthday**. 🚀
+
+---
+
+## 📚 **Codelabs Incluídos**
+
+- 🎨 **Introdução à UI com Jetpack Compose:** Aprenda a criar interfaces modernas e declarativas utilizando o Jetpack Compose.
+- 🖼️ **Adicionando Imagem ao App:** Descubra como incorporar imagens ao seu aplicativo para deixá-lo mais interativo e visualmente atraente.
 
 [codelab introdução a UI com jetpack compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables?authuser=1&hl=pt-br&continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%3Fauthuser%3D1%26hl%3Dpt-br%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-text-composables#0)
 
